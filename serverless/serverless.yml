@@ -21,6 +21,7 @@ functions:
       RESOURCE: lambda
       PUBLIC: false
       yor_trace: 6e81cc0c-c3dc-4c11-8e14-2d89fa868963
+      git_org: jamcg
     iamRoleStatements:
       - Effect: Allow
         Action:
