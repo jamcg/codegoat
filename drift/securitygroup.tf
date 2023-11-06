@@ -31,5 +31,6 @@ resource "aws_security_group" "terraform-aws-sg" {
   }
   tags = {
     yor_trace = "51049b12-bd06-4b4e-a131-41e94c9679c1"
+    git_org   = "jamcg"
   }
 }

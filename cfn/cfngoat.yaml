@@ -45,6 +45,8 @@ Resources:
           Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-ec2" 
         - Key: yor_trace
           Value: 99e83670-49ff-4ff4-a7f7-fec7ab153bd3
+        - Key: git_org
+          Value: jamcg
       UserData: 
         Fn::Base64: |
           #!/bin/bash
@@ -74,6 +76,8 @@ Resources:
           Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-data"
         - Key: yor_trace
           Value: d3de5a29-f089-4f9f-8485-7179a00a413d
+        - Key: git_org
+          Value: jamcg
 
 Outputs:
   EC2PublicDNS:
